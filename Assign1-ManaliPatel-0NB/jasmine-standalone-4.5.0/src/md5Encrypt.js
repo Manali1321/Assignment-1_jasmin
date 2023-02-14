@@ -7,6 +7,6 @@
 function md5Encrypt(stringIn) {
     "use strict";
     var md5string = new CryptoJS.MD5(stringIn);
-    var md5data = md5string.toString()
-    return md5data;
+    md5string.toString();
+    return md5string.toString();
 }//END md5Encrypt
